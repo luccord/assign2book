@@ -1,2 +1,36 @@
 /* CSS Document */
 
+body {
+    
+    background-image: linear-gradient(to bottom, #dcf2f5, #3eb9c9);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+    color: #e04300;
+    font-family: 'Merriweather Sans', sans-serif;
+    text-align: center;
+    
+}
+
+h1 {
+    
+    font-family: 'Calistoga', monospace;
+    font-size: 50%;
+}
+
+h2 {
+    
+    font-family: 'Oooh Baby', cursive;
+}
+
+p {
+    max-width: 500px;
+    margin: auto;
+}
+
+img {
+    
+    border: solid 5px #e04300;
+}
