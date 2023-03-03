@@ -2,13 +2,14 @@
 
 body {
     
-    background-image: linear-gradient(to bottom, #dcf2f5, #3eb9c9);
+    background-image: url(imgs/background.jpg);
+    
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
     
-    color: #e04300;
+    color: white;
     font-family: 'Merriweather Sans', sans-serif;
     text-align: center;
     
@@ -17,12 +18,22 @@ body {
 h1 {
     
     font-family: 'Calistoga', monospace;
-    font-size: 50%;
+    font-size: 500%;
+    margin-bottom: 1%;
+    background-color: rgba(0, 0, 0, .5); /* blur background. apply to all text
 }
 
 h2 {
     
+    margin-top: 1%;
     font-family: 'Oooh Baby', cursive;
+    font-size: 300%;
+}
+
+h3 {
+    
+    margin-top: 1%;
+    font-family: 'Merriweather Sans', sans-serif;
 }
 
 p {
@@ -33,4 +44,23 @@ p {
 img {
     
     border: solid 5px #e04300;
+    margin-bottom: 15px;
+    width: 50%;
+}
+
+.split {
+    
+    margin: 0;
+    border: none;
+    margin: auto;
+    margin-bottom: 15%;
+}
+
+.split div {
+    
+    vertical-align: middle;
+    display: inline-block;
+    border: none;
+    width: 90%;
+    max-width: 400px;
 }
