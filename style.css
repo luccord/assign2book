@@ -29,6 +29,10 @@ h2 {
     font-size: 300%;
 }
 
+.reg {
+	margin-block: 13px 13px;
+}
+
 h3 {
     
     margin-top: 1%;
@@ -94,4 +98,10 @@ img {
 	border: none;
     margin-bottom: initial;
     width: initial;
+}
+
+.required {
+	color: red;
+  	vertical-align: super;
+  	font-size: 70%;
 }
