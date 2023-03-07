@@ -71,7 +71,7 @@ img {
 	border:none;
 	border-collapse:collapse;
 	border-spacing:0;
-	background-color: #1B2027;
+	background-color: #1B2027C0;
 	width:100%;
 	margin:5px auto
 }
@@ -99,9 +99,31 @@ img {
     width: initial;
 }
 
+@media (max-width: 1220px) {
+	.booktable img {
+		width:100px;
+		height:auto;
+		
+	}
+	#map iframe {
+		width:80%;
+		height:300px;
+	}
+}
+
+#formandmap {
+	margin-top: 3%;
+}
+
+#formsplit {
+	background-color: #1B2027C0;
+	padding-top: 20px;
+}
+
 form {
 	margin: auto;
-	text-align: center;
+	text-align: center;	
+	padding: 10%;
 }
 
 .required {

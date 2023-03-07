@@ -64,23 +64,19 @@
 <h2 class="reg">Register Now!</h2>      
 <p>Though free to attend, registering will secure your place at our special events and earn you a 15% discount on books!</p>      
 <div class="split">
-	<div>
+	<div id="formsplit">
+	<p>Items with <span class="required">*</span> are required!</p>
 	<form id="form">
 	<table>
 <tr>
-	<div>
         <td><label for="name">Name<span class="required">*</span>:</label></td>
         <td><input type="text" name="name" id="name" required="required" width="30"></td>
-    </div>
 </tr>
 <tr>
-    <div>
         <td><label for="email">Email<span class="required">*</span>:</label></td>
         <td><input type="text" name="email" id="email" required="required" width="30"></td>
-    </div>
 </tr>
 <tr>
-    <div>
         <td><label for="age">Age Range:</label></td>
         <td><select name="age" id="age">
             <option value="option-1" selected="true">0-12</option>
@@ -91,19 +87,14 @@
             <option value="option-6">50-79</option>
             <option value="option-7">80-100</option>
         </select></td>
-	</div>
 </tr>
 <tr>
-	<div>
         <td><label for="phone">Phone Number:</label></td>
-        <td><input type="text" name="email" id="email"></td>
-    </div>
+        <td><input type="text" name="phone" id="phone"></td>
 </tr>
 <tr>
-	<div>
         <td><label for="interest">What are you looking forward to<span class="required">*</span>:</label></td>
 		<td><textarea type="textarea" name="interest" id="interest" rows="3" cols="21"></textarea></td>
-    </div>
 </tr>
 	</table>
 		<input type="submit" id="submit" value="Submit Form">	
