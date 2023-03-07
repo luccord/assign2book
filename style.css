@@ -55,7 +55,6 @@ img {
     
     margin: 0;
     border: none;
-    margin: auto;
     margin-bottom: 15%;
 }
 
@@ -100,8 +99,18 @@ img {
     width: initial;
 }
 
+form {
+	margin: auto;
+	text-align: center;
+}
+
 .required {
 	color: red;
   	vertical-align: super;
   	font-size: 70%;
+}
+
+form td {
+	width: 100%;
+	text-align: start;
 }
