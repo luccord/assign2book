@@ -11,27 +11,62 @@
     <link href="https://fonts.googleapis.com/css2?family=Calistoga&family=Merriweather+Sans:wght@200;400;500&family=Oooh+Baby&display=swap" rel="stylesheet">
   </head>
   <body>
+      
+      
 <!-- v Book Fair Name -->	
       <div>
           <h1>The Iqaluit Book Fair</h1>
           <h2>The North Reads</h2>
           <h3>March 7-8, 2023 - The Iqaluit Centennial Library - 220 Sinaa, Iqaluit, NU X0A 0H0</h3>
+          
+        <nav>
+            <ul>
+                <li><a href="#city">City</a></li> 
+                <li><a href="#library">Library</a></li>
+                <li><a href="#nunavut">Nunavut</a></li>
+                <li><a href="#books">Books</a></li>
+                <li id = "nav-end"><a href="#info">More Info</a></li>
+            </ul>
+        </nav>
+          
       </div>
 <!-- ^ Date and Location -->
 <!-- v Highlights -->
       <img class="main" alt="Iqaluit library interior" src = "imgs/library-interior.JPG">
       <p>Please accompany us for Iqaluit's annual book fair, hosted for your convenience at the Iqaluit Centennial Library. Join travelers from around the world and experience our incredible yearly event this March. Enjoy the city's many sights, beautiful weather and of course purchase a book or two!</p>
-      <div class = "split">
+      <div class = "split" id = "city">
           <div>
             <h1>Our City</h1>
-            <p>Iqaluit has much to offer. While you're here feel free to check out the sights, and enjoy our breathtaking architecture. Lorem ipsum dolor Lorem ipsum dolor lorem ipsmum dolor. Lorem ipsum dolor.</p>
+            <p><em>Iqaluit</em> has much to offer. While you're here feel free to check out the sights, and enjoy our breathtaking architecture. During the Book Fair, there will be many other exciting activities available across the city, so take advantage and enjoy your trip here to the fullest! Some interesting things to do include snowshoeing, snowmobiling, and enjoying our traditional Inuit snowcones. Delicious!</p>
           </div>
           <div>
             <img alt="Two images: left is a snowed-in car, right is a large very slushy rock." src = "imgs/snow-1.JPG">
           </div>
       </div>
+<!--The Library -->
+<div class = "split" id = "library">
+          <div>
+            <h1>The Library</h1>
+            <p>The <em>Iqaluit Centennial Library</em> is the territory's state of the art facility and was purposefully chosen to host this year's important annual Book Fair. With its stunning modern design, it has served the community for many years and continues to be an integral space for learning and the hosting of other special events.</p>
+          </div>
+          <div>
+            <img alt="The Iqaluit Centennial Library" src = "imgs/library-1.jpeg">
+          </div>
+      </div>
+<!--Nunavut -->
+<div class = "split" id = "nunavut">
+          <div>
+            <h1>Nunavut</h1>
+              <p>Nunavut is Canada's hidden northern gem, reknowned for their incredible landscape, people, amenities, and of course--its remarkable, and internationally recognzied annual Book Fair. Please view this incredible short video to become aquainted with our beautiful territory! WE apologize in advance that our book fair did not make the final cut, but rest assured that it belongs in there!</p>
+          </div>
+          <div>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/Xv60I1xziXM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          </div>
+      </div>
+
+      
 <!-- Featured Books and Pricelist -->
-<h1>Our Selection</h1>
+<h1 id = "books">Our Selection</h1>
 <p>From world-renowned classics to modern masterpieces and everything in between, we have a wide variety of books available for your perusal. Highlights include a curated compilation of acclaimed works by Canadian authors, and a Collectors Corner with deluxe and rare printings that are perfect for display. Have a look at just a few of what we'll have on offer.</p>
 <table class="booktable">
 <tbody>
@@ -61,7 +96,7 @@
   </tr>
 </tbody>
 </table>
-<h2 class="reg">Register Now!</h2>      
+<h2 class="reg" id = "info">Register Now!</h2>      
 <p>Though free to attend, registering will secure your place at our special events and earn you a 15% discount on books!</p>      
 <div class="split">
 	<div id="form">
