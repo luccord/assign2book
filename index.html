@@ -63,7 +63,7 @@
 </table>
 <h2 class="reg">Register Now!</h2>      
 <p>Though free to attend, registering will secure your place at our special events and earn you a 15% discount on books!</p>      
-<div class="split">
+<div class="split" id="formandmap">
 	<div id="formsplit">
 	<p>Items with <span class="required">*</span> are required!</p>
 	<form id="form">
@@ -114,11 +114,11 @@
      let requestBody = new FormData(form)
      fetch(scriptURL, { method: 'POST', body: requestBody})
        .then(response => {
-          alert('Success!', response)
+          alert('Your response has been successfully submitted! Thank you for your interest!', response)
           submitButton.disabled = false
          })
        .catch(error => {
-       alert('Error!', error.message)
+       alert('Something went wrong. Check your response and try again. If you continue to see this error, email us at bookfair@nupl.ca.', error.message)
          submitButton.disabled = false
 
        }
