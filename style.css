@@ -57,22 +57,16 @@ img {
     max-width: 800px;
 }
 
-div {
-    
-    margin-bottom: 5%;
-}
-
 .split {
     
     margin: 0;
     border: none;
-    margin: auto;
     width: 100%;
 }
 
 .split div {
     
-    margin-top: 10%;
+    margin-top: 5%;
     vertical-align: top;
     display: inline-block;
     border: none;
@@ -136,7 +130,7 @@ div {
 }
 
 #formandmap {
-	margin-top: 3%;
+	margin-top: 0;
 }
 
 #formsplit {
@@ -190,4 +184,29 @@ a:hover {
 
 #nav-end {
     border-right: none;
+}
+
+footer {
+	padding:3% 0;
+	background-color: rgba(0, 0, 0, .5); /* blur background. apply to all text */
+}
+
+.top {
+  --offset: 50px;
+  position: sticky;
+  bottom: 9%;      
+  left:85%; 
+  place-self: end;
+  margin-top: calc(100vh + var(--offset));
+  text-decoration: none;
+  padding: 10px;
+  color: #fff;
+  background: #000;
+  border-radius: 100px;
+  white-space: nowrap;
+}
+
+html,
+body {
+  scroll-behavior: smooth;
 }
