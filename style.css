@@ -2,7 +2,7 @@
 
 body {
     
-    background-image: url(imgs/background.jpg);
+    background-image: url(imgs/background-3.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -11,6 +11,7 @@ body {
     font-family: 'Merriweather Sans', sans-serif;
 	font-weight: 200;
     text-align: center;
+    margin: 0;
     
 }
 
@@ -24,9 +25,10 @@ h1 {
 
 h2 {
     
-    margin-top: 1%;
+    margin: 1%;
     font-family: 'Oooh Baby', cursive;
     font-size: 300%;
+    text-shadow: 5px 5px 4px black;
 }
 
 .reg {
@@ -37,34 +39,56 @@ h3 {
     
     margin-top: 1%;
     font-family: 'Merriweather Sans', sans-serif;
+    text-shadow: 5px 5px 4px black;
 }
 
 p {
     max-width: 500px;
     margin: auto;
+    background-color: rgba(0, 0, 0, .5); /* blur background. apply to all text */
+    padding: 10px;
 }
 
 img {
     
-    border: solid 5px #e04300;
+    border: solid 3.5px white;
     margin-bottom: 15px;
-    width: 50%;
+    width: 90%;
+    max-width: 800px;
+}
+
+div {
+    
+    margin-bottom: 5%;
 }
 
 .split {
     
     margin: 0;
     border: none;
-    margin-bottom: 15%;
+    margin: auto;
+    width: 100%;
 }
 
 .split div {
     
-    vertical-align: middle;
+    margin-top: 10%;
+    vertical-align: top;
     display: inline-block;
     border: none;
-    width: 90%;
-    max-width: 400px;
+    width: 100%;
+    max-width:700px;
+}
+
+.split h1 {
+    
+    background-color: rgba(0, 0, 0, 0);;
+    text-shadow: 5px 5px 4px black;
+}
+
+.split p {
+    
+    margin-top: 5%;
 }
 
 .booktable {
@@ -135,4 +159,35 @@ form {
 form td {
 	width: 100%;
 	text-align: start;
+}
+
+nav {
+    margin: 15px auto 30px auto;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    padding: 0px 3% 0px 3%;
+    border-right: 2px solid white;
+    text-align: center;
+    display:inline;
+}
+
+a {
+    
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    
+    color: yellow;
+}
+
+#nav-end {
+    border-right: none;
 }
